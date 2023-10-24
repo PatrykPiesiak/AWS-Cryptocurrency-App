@@ -120,4 +120,4 @@ def update_plot(selected_data, selected_time_period):
 
 # Run the Dash application
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run(debug=True, host='0.0.0.0', port=8050)
